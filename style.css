@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body setup */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Optional: Change background color */
+}
+
+#head {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Content container */
+#body {
+    width: 80%; /* Adjust the width as needed */
+    max-width: 800px; /* Max width for large screens */
+    margin: 0 auto; /* Centers content horizontally */
+    padding: 20px;
+    border: 2px solid #000; /* Adds a border */
+    border-radius: 10px; /* Optional: Rounded corners */
+    background-color: #fff; /* Background color for content */
+    overflow-wrap: break-word; /* Prevents long words from breaking layout */
+    margin-top: 20px; /* Spacing between header and content */
+}
+
+/* Styling the pre element for the message body */
+pre {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333; /* Text color */
+    white-space: pre-line; /* Maintains line breaks from the HTML */
+    text-align: left; /* Ensures the content inside <pre> is aligned properly */
+    margin: 0 auto; /* Centers the <pre> content */
+    max-width: 100%; /* Makes sure <pre> doesn’t overflow its container */
+    overflow-x: auto; /* Adds horizontal scrolling if needed */
+}
